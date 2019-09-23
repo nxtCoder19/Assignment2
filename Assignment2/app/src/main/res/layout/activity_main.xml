@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="@string/login_textview"
+        android:layout_marginTop="100dp"
+        android:textSize="@dimen/TextView1_textSize"
+        android:layout_marginLeft="@dimen/TextView1_marginLeft"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_email"
+        android:hint="@string/email_textView"
+        android:layout_marginTop="@dimen/et_Email_marginTop"
+        android:layout_marginLeft="@dimen/et_Email_marginLeft"
+        android:layout_marginRight="@dimen/et_Email_marginRight"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:hint="@string/password_textView"
+        android:layout_marginLeft="@dimen/et_password_marginLeft"
+        android:layout_marginRight="@dimen/et_password_marginRight"
+        android:layout_marginTop="@dimen/et_password_marginTop"/>
+
+    <ImageView
+        android:id="@+id/iv_eye"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:src="@drawable/ic_visibility_black_24dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:background="@color/backgroundColor"
+        android:textColor="@color/colorWhite"
+        android:text="@string/button_Login"
+        android:textSize="@dimen/btn_Login_textSize"
+        android:layout_marginLeft="@dimen/btn_login_marginLeft"
+        android:layout_marginRight="@dimen/btn_login_marginRight"
+        android:layout_marginTop="@dimen/btn_login_marginTop"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/tv_title_marginEnd"
+        android:layout_marginRight="@dimen/tv_title_marginRight"
+        android:layout_marginBottom="@dimen/tv_title_marginBottom"
+        android:text="@string/title_textView"
+        android:textSize="@dimen/tv_title_textSize" />
+
+
+</RelativeLayout>

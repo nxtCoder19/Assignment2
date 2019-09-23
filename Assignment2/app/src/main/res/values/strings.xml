@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="login_textview">Log in to your account</string>
+
+    <string name="email_textView">Email</string>
+
+    <string name="password_textView">Password</string>
+
+    <string name="button_Login">Log in</string>
+
+    <string name="title_textView">Dont have an account?REGISTER</string>
+
+    <string name="welcome_textView">Welcome</string>
+
+    <string name="basicInformation_textView">Please provide your basic information</string>
+
+    <string name="reg_fullName_hint">Full Name</string>
+
+    <string name="reg_email_hint">Email</string>
+
+    <string name="reg_password_hint">Password</string>
+
+    <string name="reg_gender_hint">Gender</string>
+
+    <string name="reg_dob_hint">Date of Birth</string>
+
+    <string name="reg_userType_hint">User Type</string>
+
+    <string name="reg_occupation_hint">Occupation</string>
+
+    <string name="tv_reg_title">Sign up with different account?</string>
+    
+    <string name="tv_otpTitle">OTP Verification</string>
+    
+    <string name="tv_enter_verification_code">Enter the verification code</string>
+    
+    <string name="tv_sent_to_your_no">sent to your number via sms.</string>
+    
+    <string name="login_err_no_email">Enter email address</string>
+
+    <string name="login_err_no_password">Enter Password</string>
+    <string name="login_err_no_valid_email">Incorrect Email enter valid email</string>
+
+    <string name="continue_err_no_fullName">Enter your Full name</string>
+
+    <string name="continue_err_no_email">Enter your Email</string>
+    <string name="continue_err_no_password">Enter your Password</string>
+    <string name="continue_err_no_gender">Enter your Gender</string>
+    <string name="continue_err_no_dob">Enter your date of birth</string>
+    <string name="continue_err_no_userType">Enter your User Type</string>
+    <string name="continue_err_no_occupation">Enter your Occupation</string>
+    <string name="continue_err_err_in_email_pattern">Incorrect Email format enter valid email</string>
+
+    <string name="resend_mess_otp">otp has been sent</string>
+    <string name="submit_err_no_otp">Please enter valid otp</string>
+    <string name="submit_mess_otp">Otp has been submitted</string>
+</resources>

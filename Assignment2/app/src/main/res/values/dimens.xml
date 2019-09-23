@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextView1_textSize">40dp</dimen>
+    <dimen name="TextView1_marginLeft">40dp</dimen>
+
+    <dimen name="tv_Email_textSize">30sp</dimen>
+    <dimen name="tv_Email_marginLeft">50dp</dimen>
+    <dimen name="tv_Email_marginTop">250dp</dimen>
+
+    <dimen name="et_Email_marginLeft">50dp</dimen>
+    <dimen name="et_Email_marginRight">15dp</dimen>
+    <dimen name="et_Email_marginTop">265dp</dimen>
+
+    <dimen name="tv_Password_textSize">30sp</dimen>
+    <dimen name="tv_password_marginLeft">50dp</dimen>
+    <dimen name="tv_password_marginTop">330dp</dimen>
+
+    <dimen name="et_password_marginRight">15dp</dimen>
+    <dimen name="et_password_marginTop">345dp</dimen>
+    <dimen name="et_password_marginLeft">50dp</dimen>
+
+    <dimen name="btn_Login_textSize">20sp</dimen>
+
+    <dimen name="btn_login_marginLeft">50dp</dimen>
+    <dimen name="btn_login_marginRight">15dp</dimen>
+    <dimen name="btn_login_marginTop">420dp</dimen>
+    
+    <dimen name="tv_title_textSize">20sp</dimen>
+    
+    <dimen name="tv_title_marginEnd">46dp</dimen>
+    <dimen name="tv_title_marginRight">46dp</dimen>
+    <dimen name="tv_title_marginBottom">25dp</dimen>
+
+    <dimen name="tv_welcome_textSize">20sp</dimen>
+    <dimen name="tv_welcome_marginTop">60dp</dimen>
+    <dimen name="tv_welcome_marginLeft">30dp</dimen>
+    
+    <dimen name="tv_basicInformation_textSize">20sp</dimen>
+    <dimen name="tv_basicInformation_marginTop">90dp</dimen>
+    <dimen name="tv_basicInformation_marginLeft">30dp</dimen>
+    
+    <dimen name="et_fullName_marginLeft">50dp</dimen>
+    <dimen name="et_fullName_marginRight">15dp</dimen>
+    <dimen name="et_fullName_marginTop">230dp</dimen>
+
+    <dimen name="et_regEmail_marginLeft">50dp</dimen>
+    <dimen name="et_regEmail_marginRight">15dp</dimen>
+    <dimen name="et_regEmail_marginTop">280dp</dimen>
+
+    <dimen name="et_regPassword_marginLeft">50dp</dimen>
+    <dimen name="et_regPassword_marginRight">15dp</dimen>
+    <dimen name="et_regPassword_marginTop">330dp</dimen>
+
+    <dimen name="et_regGender_marginLeft">50dp</dimen>
+    <dimen name="et_regGender_marginRight">15dp</dimen>
+    <dimen name="et_regGender_marginTop">380dp</dimen>
+
+    <dimen name="et_reg_dob_marginLeft">50dp</dimen>
+    <dimen name="et_reg_dob_marginRight">15dp</dimen>
+    <dimen name="et_reg_dob_marginTop">430dp</dimen>
+
+    <dimen name="et_reg_userType_marginLeft">50dp</dimen>
+    <dimen name="et_reg_userType_marginRight">15dp</dimen>
+    <dimen name="et_reg_userType_marginTop">480dp</dimen>
+
+    <dimen name="et_reg_occupation_marginLeft">50dp</dimen>
+    <dimen name="et_reg_occupation_marginRight">15dp</dimen>
+    <dimen name="et_reg_occupation_marginTop">530dp</dimen>
+
+    <dimen name="tv_otp_textSize">30sp</dimen>
+    <dimen name="tv_otp_marginLeft">45dp</dimen>
+    <dimen name="tv_otp_marginTop">70dp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpActivity">
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivIcon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/ic_chevron_left_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_otpTitle"
+        android:textSize="@dimen/tv_otp_textSize"
+        android:layout_marginTop="@dimen/tv_otp_marginTop"
+        android:layout_marginLeft="@dimen/tv_otp_marginLeft"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_enter_verification_code"
+        android:textSize="25sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_sent_to_your_no"
+        android:textSize="25sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="70dp"
+        android:weightSum="4"
+
+        >
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_otp1"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_otp2"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_otp3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_otp4"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_1"
+        android:layout_marginTop="70dp"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_resend"
+            android:background="@drawable/custom_stoke_btn"
+            android:textColor="@color/backgroundColor"
+            android:text="Resend"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit"
+            android:background="@color/backgroundColor"
+            android:textColor="@color/colorWhite"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
