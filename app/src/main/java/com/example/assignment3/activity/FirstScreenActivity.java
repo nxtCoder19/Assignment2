@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.assignment3.HomeActivity;
 import com.example.assignment3.R;
 
 public class FirstScreenActivity extends AppCompatActivity {

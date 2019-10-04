@@ -1,4 +1,4 @@
-package com.example.assignment3;
+package com.example.assignment3.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -15,13 +15,12 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.assignment3.activity.StudentActivity;
+import com.example.assignment3.R;
 import com.example.assignment3.adapter.Adapter;
 import com.example.assignment3.model.ModelClass;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener, Adapter.OnListItemClickListener {
