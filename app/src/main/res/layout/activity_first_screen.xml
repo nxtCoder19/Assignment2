@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FirstScreenActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_splash_title"
+        android:text="@string/tv_title_firstActivity"
+        android:textSize="@dimen/tv_title_size_firstActivity"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorGreen"
+        android:background="@drawable/custom_stroke_btn"
+        android:paddingLeft="@dimen/tv_padding_left"
+        android:paddingRight="@dimen/tv_padding_right"
+        android:paddingBottom="@dimen/tv_padding_bottom"
+        android:paddingTop="@dimen/tv_padding_top"/>
+
+
+
+</RelativeLayout>

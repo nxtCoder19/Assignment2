@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+    <!--First Screen -->
+
+    <string name="tv_title_firstActivity">Assignment</string>
+
+    <!-- Home Activity -->
+    <string name="tv__title_homeActivity">No student added yet.</string>
+    <string name="btn_add_student_homeActivity">Add Student</string>
+
+    <!-- student data -->
+    <string name="et_hint_student_name">Student name</string>
+    <string name="et_hint_class">Class</string>
+    <string name="et_hint_roll_no">Roll no</string>
+    <string name="btn_submit_studentActivity_text">Submit</string>
+    
+    <!-- dialog box components -->
+    <string name="tv_dialog_box_view">View</string>
+    <string name="tv_dialog_box_edit">Edit</string>
+    <string name="tv_dialog_box_delete">Delete</string>
+    
+    <!-- popup menu-->
+    <string name="popup_item_name">Name</string>
+    <string name="popup_item_roll">Roll no.</string>
+    
+    <!-- item layout-->
+    <string name="tv_item_layout_name_of_the_student">Name of the Student</string>
+    <string name="tv_item_layout_class_of_student">Class of the Student</string>
+</resources>
